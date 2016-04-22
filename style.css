@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 1em;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1.6;
+  font-weight: 1em;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  min-width: 1rem;
+  min-height: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+body > header nav {
+  height: auto;
+}
+
+header,
+body > nav,
+header > nav,
+article > nav {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+body > nav a,
+header nav a,
+article > nav a {
+  flex: 1;
+}
+
+body > article {
+  /**
+    * center content in first article not in main
+    */
+  align-items: center;
+  margin: auto;
+  width: auto;
+}
+
+article {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
+
+section {
+  flex: 1;
+  /**
+    * preemptive strike on absolute positioning
+    */
+  position: relative;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+a {}
+
+ul {}
+
+ul li {}
+
+ol {}
+
+ol li {}
+
+dl {}
+
+dl dt {}
+
+dl dd {}
+
+form {}
+
+fieldset {}
+
+legend {}
+
+legend label {}
+
+legend label input {}
+
+legend input {}
+
+legend ul {}
+
+legend li {}
+
+legend li label {}
+
+legend li input {}
+
+/*
+ * don't forget to flex
+ */
+
+div {
+  flex: 1;
+}
+
+div label {}
+
+div input {}
+
+#first-name {}
+
+#last-name {}
+
+#email {}
+
+select {}
+
+option {}
+
+textarea {}
+
+button {}
+
+article {}
+
+b {}
+
+em {}
+
+blockquote {}
+
+blockquote a {}
+
+code {}
+
+code pre {}
+
+footer {}
+
+footer a {}
+
+footer li {}
+
+footer li a {}
+
+footer ul {}
+
+footer ul li {}
+
+footer ul a {}
+
+progress {}
+
+meter {}
+
+header {}
+
+small {}
+
+s {}
+
+span {}
+
+abbr {}
+
+sub {}
+
+sup {}
+
+var {}
+
+time {}
+
+figure {}
+
+img {}
+
+figcaption {}
+
+figcaption a {}
+
+samp {}
+
+samp pre {}
+
+kbd {}
+
+table {}
+
+caption {}
+
+thead {}
+
+thead tr {}
+
+th {}
+
+tfoot {}
+
+tfoot tr {}
+
+tfoot td {}
+
+tbody {}
+
+tbody tr {}
+
+tbody td {}
+
+address {}
+
+hr {}
